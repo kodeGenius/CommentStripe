@@ -1,5 +1,5 @@
-function commentstrip(code){
+function comments(code){
 	return code.replace(/\/\/.*|\/\*[^]*\*\//g, "");
 }
 
-commentstrip("y = 10 + 4; //basic addtion");
+comments("y = 10 + 4; //basic addtion");
